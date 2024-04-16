@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
+  //Create JSON object
   const data = {
     message: "My name is Zachary",
     timestamp: Date.now()
